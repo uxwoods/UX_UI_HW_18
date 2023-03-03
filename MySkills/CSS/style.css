@@ -1,9 +1,9 @@
 /* Header Styles */
 .container{
     display: inline-block;
-    vertical-align:top;
+    vertical-align:bottom;
     width:100%;
-    margin:10%;
+    margin: 10%;
     padding:1%;
     background-color:white;
     height: 5px;
@@ -17,26 +17,17 @@
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    margin: 1%;
-    padding: 1%;
-    color:black;
-    font-family:Arial, Helvetica, sans-serif;
-    font: size 18px;
 }
 
 logo{
     display: inline-block;
     vertical-align:top;
-    width: 23%;
+    width: 100%;
     padding-left:1%;
     text-align:center;
+    margin:10%
 }
 
-nav{
-    width: 150%;
-    padding: 1%;
-    margin: 10%
-}
 ul{
     width: 150%;
     margin-left:auto;

@@ -1,13 +1,13 @@
 /* Header Styles */
-#navigation{
-    width:100%;
+.container{
+    vertical-align:top;
+    width:50%;
     margin:5%;
     padding:1%;
     background-color:white;
-    height: 150pxpx;
+    height: 10px;
     color:black;
     font-family:Arial, Helvetica, sans-serif;
-    font: size 18px;
 }
 .inline-block {
     display: inline-block;
@@ -15,33 +15,46 @@
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-}
+    margin: 1%;
+    padding: 1%;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
 
-logo{
+}
+.content{
     display: inline-block;
     vertical-align:top;
-    width: 23%;
-    padding-left:1%;
-    text-align:center;
+    width:80%;
+    margin:10%;
+    padding:1%;
+    background-color:white;
+    height: 200px;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font: size 18px;
+}
+
+.logo{
+    display: inline-block;
+    vertical-align:top;
+    width: 100%;
+    padding-left:80%;
 }
 
 nav{
-    width: 100%;
+    width: 150%;
     padding: 1%;
+    margin: 10%
 }
 ul{
-    width:100%;
+    display:inline-block;
+    vertical-align:top;
+    width: 150%;
     margin-left:auto;
 }
 
-.herolmg{
-    height: 600px;
-    padding: 25px;
-}
-.content{
-    width: 500px;
-    margin: 0 auto
-}
+
+
 .button{
     background-color: rgb(29, 70, 87);
     color: rgb(253, 254, 251);
@@ -55,14 +68,8 @@ footer{
     margin:5%;
     padding:1%;
     background-color:white;
-    height: 150pxpx;
+    height: 10px;
     color:black;
     background-color: white;
     padding: center;
-}
-
-.ul{
-    display:inline-block;
-    vertical-align:top;
-
 }
