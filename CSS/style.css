@@ -1,58 +1,73 @@
 /* Header Styles */
-.container{
-    vertical-align:top;
-    width:50%;
-    margin:5%;
-    padding:1%;
-    background-color:white;
-    height: 10px;
-    color:black;
-    font-family:Arial, Helvetica, sans-serif;
-}
-.inline-block {
+body {
+    font-family: Arial, sans-serif;
+    margin: 10;
+    padding: 0;
+  }
+  
+header {
+    background-color: #333;
+    color: black;
     display: inline-block;
-    vertical-align:top;
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    margin: 1%;
-    padding: 1%;
-    color:black;
-    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+    padding: 10px 60px;
+    width: 100%;
+}
+  
+.logo img {
+    height: 50px;
+}
+    
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 40px;
+}
+  
+nav ul li {
+    margin-right: 20px;
+    margin-left: 40px;
+}
+  
+nav ul li:last-child {
+    margin-right: 0;
+    margin-left: 40px;
+}
+  
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 40px;
+}
 
-}
-.content{
+.container{
     display: inline-block;
-    vertical-align:top;
-    width:80%;
-    margin:10%;
+    vertical-align:bottom;
+    width:100%;
     padding:1%;
     background-color:white;
-    height: 200px;
+    height: 5px;
     color:black;
     font-family:Arial, Helvetica, sans-serif;
     font: size 18px;
 }
+.inline-block {
+    display: inline-block;
+    vertical-align:top;
+    background-color: #333(158, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
 
-.logo{
+logo{
     display: inline-block;
     vertical-align:top;
     width: 100%;
-    padding-left:80%;
+    padding-left:1%;
+    text-align:center;
+    margin:10%
 }
-
-nav{
-    width: 150%;
-    padding: 1%;
-    margin: 10%
-}
-ul{
-    display:inline-block;
-    vertical-align:top;
-    width: 150%;
-    margin-left:auto;
-}
-
 
 
 .button{
@@ -63,6 +78,75 @@ ul{
     border-radius: 20px;
 }
 
+.myskills{
+    margin: 20%;
+}
+.flexcontainer{
+    margin: 20%;
+}
+
+  
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+  
+ul {
+    list-style: none;
+    margin: 20%;
+    padding: 0;
+}
+  
+li {
+    margin-bottom: 5px;
+    color: #fff;
+}
+  
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+  
+.container {
+    max-width: 1200px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.footer-menu ul,
+.footer-social ul {
+    list-style: none;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+  .footer-menu li,
+  .footer-social li {
+    margin: 0 10px;
+}
+  
+  .footer-menu a,
+  .footer-social a {
+    color: #fff;
+    text-decoration: none;
+}
+
+    .footer-menu,
+    .footer-social {
+      margin-top: 20px;
+ }
+  
 footer{
     width:100%;
     margin:5%;
